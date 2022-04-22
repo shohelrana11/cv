@@ -1,0 +1,31 @@
+.project-simple{
+    width: 100%;
+    height: 80px;
+    background-color: #010f0f;
+    margin: 0 auto
+}
+.project-simple ul{
+   
+
+}
+.project-simple li{
+    list-style-type: none;
+   
+    float: right;
+    padding: 30px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    
+
+}
+.project-simple ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+    cursor: pointer;
+}
+
+.text-logo{
+    color: aliceblue;
+    padding-bottom: 10PX;
+}

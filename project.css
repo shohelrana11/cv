@@ -1,0 +1,157 @@
+/*---------------
+margin control
+--------------*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-color: #eee;
+}
+
+.container{
+    background-color: aqua;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+/*---------------
+Image  conainer
+--------------*/
+
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+   float: left;
+
+}
+
+/*---------------
+Image  conainer end
+--------------*/
+
+
+
+
+/*---------------
+Header start
+--------------*/
+
+
+
+.header-bio{
+    float: left;
+    padding: 3 0px;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: rgb(6, 128, 16);
+}
+
+.header-contact{
+    float: right;
+    padding:30px
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: rgb(233, 15, 15);
+    font-weight: bold ;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: black;
+
+}
+
+/*---------------
+Header end
+--------------*/
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    background-color: black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+
+
+
+#persional-section{
+
+}
+.containt{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: left;
+    color: #000000;
+
+}
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+
+}
+
+/*---------------------
+footer start
+----------------------*/
+
+.footer-style{
+    background-color: #000000;
+    border: #eee solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+   text-align: center;
+}
+.footer-style a{
+    color: #eee;
+    text-decoration: none;
+    padding: 10p;
+
+}
+.footer-style p{
+    color: #eee;
+    margin-top: 10px;
+}
+.footer-style a:hover{
+    color: #09d402;
+    text-decoration: wavy underline,;
+}
+
+/*---------------------
+footer end
+----------------------*/
